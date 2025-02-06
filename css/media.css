@@ -20,7 +20,8 @@
         position: absolute;
         right: 0px;
         top: 2.8rem;
-        background-color: var(--light);
+        background-color:white;
+        color: black;
         box-shadow: var(--shadow);
         width: 100%;
         margin: auto;
@@ -31,10 +32,12 @@
         width: 100%;
         cursor: pointer;
         /* animation: slideDown 1s linear 0s 1; */
+        text-align: center;
+        color: black;
     }
 
     .menu.active li:active {
-        color: var(--primary);
+        color: black;
     }
 
     /* home block */
@@ -55,6 +58,9 @@
         height: 100%;
         gap: 2rem;
     }
+    .home-container .col{
+        background-color: #735DA5;
+    }
 
     .row .col {
        display: flex;
@@ -74,6 +80,7 @@
         z-index:-1;
     }
 
+
     /* about section */
     .about-container .row .col:first-child {
         display: none;
@@ -85,6 +92,26 @@
     .contact-card .row{
         display: flex;
         flex-direction: column;
+    }
+    .about-container .col{
+        background-color:#D3C5E5;
+    }
+
+    .education-container .col{
+        background-color: #735DA5;
+        
+    }
+    
+    .skills-container .col{
+        background-color:#D3C5E5;
+            
+    }
+    .skills-container .col .card{
+        background-color: whitesmoke;
+    }
+    .contact-container .col{
+        background-color:#D3C5E5;
+        
     }
 }
 
